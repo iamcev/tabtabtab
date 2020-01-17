@@ -1,0 +1,16 @@
+body {
+    font-family: Object Sans, sans-serif;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: Object Sans;
+    src: url('../fonts/ObjectSans-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Object Sans;
+    src: url('../fonts/ObjectSans-Heavy.otf');
+    font-weight: bold;
+}
