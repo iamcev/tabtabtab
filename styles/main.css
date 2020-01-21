@@ -4,19 +4,38 @@ body {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ5EffZVTKOU%2Fmaxresdefault.jpg&f=1&nofb=1');
 }
 
-#content {
-    background: #333333dd;
+#boxes {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#header {
+    user-select: none;
+}
+
+.box {
     backdrop-filter: blur(30px);
-    margin-left: 30px;
-    margin-top: 30px;
-    width: 500px;
-    height: calc(100vh - 128px);
+    margin-bottom: 16px;
+    width: 400px;
     border-radius: 16px;
-    padding: 32px;
     color: white;
+    padding: 24px;
 }
 
 h1 {
-    margin-top: 16px;
+    margin-top: 0;
     font-weight: normal;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.z1 {
+    box-shadow: 0 0 8px 2px #00000033;
+    background: #333333cc;
+}
+
+.z2 {
+    background: #444444cc;
+    box-shadow: 0 0 16px 2px #00000044;
 }
